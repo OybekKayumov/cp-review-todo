@@ -8,7 +8,8 @@ const addBtn = document.querySelector('#add');
 const input = document.querySelector('.input');
 const clearAll = document.querySelector('.clear-all');
 
-const tasks = new Tasks();
+// const tasks = new Tasks();
+const tasks = {};
 
 const renderTasks = () => {
   listTasks.innerHTML = '';
